@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FretZedd Guitars</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href=""><img src="./images/Brand logo.png" alt="Brand Logo" /></a>
+        </div>
+        <div class="head-search">
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input
+            type="text"
+            placeholder="What can we help you find?"
+            class="search-input"
+          />
+        </div>
+        <div class="logos">
+          <div class="logo1">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="logo2">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="logo3">
+            
+              <i class="fa-solid fa-cart-shopping"></i>
+            
+            <span>0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <div id="mobile">
+        <i id="bar" class="fa-solid fa-bars"></i>
+      </div>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">HOME</a></li>
+        <li><a href="shop.html">SHOP</a></li>
+        <li><a href="custom.html">FRETZEDD CUSTOM</a></li>
+        <li><a href="amps.html">AMPS & EFFECTS</a></li>
+        <li><a href="parts.html">PARTS & PICKUPS</a></li>
+        <li><a href="accesories.html">ACCESSORIES</a></li>
+        <li><a href="lifestyle.html">LIFESTYLE</a></li>
+        <li><a href="support.html">SUPPORT</a></li>
+        <li><a href="discover.html">DISCOVER</a></li>
+        <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+      </ul>
+    </nav>
+
+    <div class="cartTab">
+      <h1>Shopping Cart</h1>
+      <div class="listCart">
+         <div class="item">
+          <div class="cart-img">
+            <img src="./images/cartimage1.jpg" alt="">
+          </div>
+          <div class="cart-name">
+            NAME
+          </div>
+          <div class="totalPrice">
+            $0.00
+          </div>
+          <div class="quantity">
+            <span class="minus"><</span>
+            <span>1</span>
+            <span class="plus">></span>
+          </div>
+         </div>
+         
+      </div>
+      <div class="cartbtn">
+        <button class="closeBtn">CLOSE</button>
+        <button class="checkoutbtn">CHECK OUT</button>
+      </div>
+    </div>
+
+
+    <div class="hero-section">
+      <!-- <img src="./images/HerpBanner.webp" alt="" /> -->
+      <div class="hero-text">
+        <h2>Introducing the</h2>
+        <h2>best collection</h2>
+        <h2>of Guitars</h2>
+
+        <p>
+          <i
+            >Music can transform your mood <br />
+            and energy levels, take you to some <br />
+            memories long ago forgotten.</i
+          >
+        </p>
+        <br />
+        <button>Shop now</button>
+      </div>
+    </div>
+
+    <div class="info">
+      <div class="info-1">
+        <img src="./images/info1.png" />
+        <p>Responsiblity <br />Sourced Materials</p>
+      </div>
+      <div class="info-2">
+        <img src="./images/info2.png" />
+        <p>Guitar Bags or Case <br />Included</p>
+      </div>
+      <div class="info-3">
+        <img src="./images/info3.png" />
+        <p>Factory Expert <br />Services & Support</p>
+      </div>
+    </div>
+
+    <section id="product1" class="section-p1">
+      <h2>Explore The Best Guitars</h2>
+      <p style="color: rgb(190, 49, 68); font-size: 1.5rem">
+        Model Recommendations Handpicked by FretZedd Factory staff, artists,
+        fan.
+      </p>
+      <div class="pro-container">
+        <div class="pro" onclick="window.location.href='singleProduct.html'">
+          <img src="./images/card1.jpg" alt="" />
+          <div class="des">
+            <h5>Kona Burst Top-314ce</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$1,999</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='singleProduct1.html'">
+          <img src="./images/card2.jpg" alt="" />
+          <div class="des">
+            <h5>Natural Top LTD-314ce</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!-- <i class="fas fa-star"></i> -->
+            </div>
+            <h4>$1,599</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='singleProduct2.html'">
+          <img src="./images/card3.jpg" alt="" />
+          <div class="des">
+            <h5>GS Mini-e Rosewood LTD</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$2,000</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='singleProduct3.html'">
+          <img src="./images/card4.jpg" alt="" />
+          <div class="des">
+            <h5>217-SB LTD</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$3,000</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='singleProduct4.html'">
+          <img src="./images/card5.png" alt="" />
+          <div class="des">
+            <h5>Builder's Edition-814ce</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$4,499</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='singleProduct5.html'">
+          <img src="./images/card6.png" alt="" />
+          <div class="des">
+            <h5>Studio SEB-314ce</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$2,099</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='singleProduct6.html'">
+          <img src="./images/card7.png" alt="" />
+          <div class="des">
+            <h5>Gold Label-517e</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!-- <i class="fas fa-star"></i> -->
+            </div>
+            <h4>$2,599</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='singleProduct7.html'">
+          <img src="./images/card8.png" alt="" />
+          <div class="des">
+            <h5>224ce-K DLX</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!-- <i class="fas fa-star"></i> -->
+              <!-- <i class="fas fa-star"></i> -->
+            </div>
+            <h4>$1,999</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <div class="hero2">
+      <!-- <img src="./images/second image.jpg" alt="" /> -->
+      <div class="hero2-text">
+        <p>LIMITED EDITION</p>
+        <br />
+        <h1>MIKEY WAY JAZZ BASS</h1>
+        <br />
+        <p>
+          <i>
+            Sleek silver sparkle finish, powerful Vintage-style <br />
+            pickups and comfortable "C" maple neck.
+          </i>
+        </p>
+        <br /><br />
+        <button>View Now</button>
+      </div>
+    </div>
+
+    <section id="product1" class="section-p1">
+      <h2>Electrics</h2>
+      <p style="color: rgb(190, 49, 68); font-size: 1.7rem">
+        Electric Guitar New Arrivals
+      </p>
+      <p
+        id="p1"
+        style="
+          color: rgb(190, 49, 68);
+          font-size: 1.5rem;
+          font-family: 'Franklin Gothic Medium';
+        "
+      >
+        The electric guitar has shaped the history of rock, jazz, blues, pop and
+        many other genres
+      </p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="./images/items-card1.png" alt="" />
+          <div class="des">
+            <h5>Victory Figured-Wine Red Burst</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$2,499</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/items-card2.png" alt="" />
+          <div class="des">
+            <h5>Les Paul Standard 60s-Iced Tea</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$2,299</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/items-card3.png" alt="" />
+          <div class="des">
+            <h5>Les Paul Standards 50s-Dirty Lemon Burst</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$2,299</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/items-card4.png" alt="" />
+          <div class="des">
+            <h5>SG Standard '61-Cherry Satin</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$3,499</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/items-card5.png" alt="" />
+          <div class="des">
+            <h5>1957 Les Paul Standard-Pelham Blue Over Goldtop</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$9,699</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/items-card6.png" alt="" />
+          <div class="des">
+            <h5>1959 ES-Reissue-Vintage Sunburst</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$7,699</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/items-card7.png" alt="" />
+          <div class="des">
+            <h5>SG Junior-Vintage Cherry</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!-- <i class="fas fa-star"></i> -->
+            </div>
+            <h4>$1,599</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+        <div class="pro">
+          <img src="./images/items-card8.png" alt="" />
+          <div class="des">
+            <h5>Victory Figured Top -Dark Purple Burst</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <!-- <i class="fas fa-star"></i> -->
+              <!-- <i class="fas fa-star"></i> -->
+            </div>
+            <h4>$2,999</h4>
+          </div>
+          <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+        </div>
+      </div>
+    </section>
+    <div class="advert">
+      <div class="advert-images">
+        <img src="./images/advert1.jpg" alt="" />
+        <img src="./images/advert2.jpg" alt="" />
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="details">
+        <h2>About FretZedd Guitars</h2>
+        <p>
+          FrettZedd Guitars was found in 2001 by
+          <span>Faiz Ali (Alif)</span>, and has grown Into the leading global
+          builder of premium acoustic and electric guitars. Renowned for
+          blending modern, innovative manufacuring techniques with a master
+          craftman's attention to detail, FretZedd acoustic guitars are widely
+          considered among the best sounding easiest to play in the world. The
+          company is a pioneer in the use of computer mills, lasers and other
+          high-tech tools and propietary machinery, and today, Faiz Ali is
+          widely recognized throughout the musical industry as the visionary
+          acoustic manufacturer.
+        </p>
+        <p id="read">Read More...</p>
+      </div>
+    </section>
+
+    <section id="newsletter" class="section-p1">
+      <div class="newstext">
+        <h3>SIGN UP FOR NEWS & OFFERS</h3>
+        <p>
+          Subscribe now for emails with guitar giveaways and prizes, cool
+          deals,<br />
+          guitar news and more from <span>FrettZedd Guitars.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your e-mail address" />
+        <button>Sign Up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="./images/Brand logo.png" alt="" id="footer-logo" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Sailing Club Road, Street 04, South Delhi,
+          India
+        </p>
+        <p><strong>Phone:</strong> +01 0206 2001/ (+91) 7065384605</p>
+        <p><strong>Hours</strong> 10:00 - 18:00, Mon - Sat</p>
+        <div class="follow">
+          <h4>Follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="./images/app.jpg" alt="app store" />
+          <img src="./images/play.jpg" alt="play store" />
+        </div>
+        <p>Secured Payments Gateways</p>
+        <img src="./images/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>
+          © 2025 FrettZedd Musical Instrument Corporation. All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
